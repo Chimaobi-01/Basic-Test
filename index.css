@@ -1,0 +1,34 @@
+body {
+    font-size: 15px;
+}
+.picture-1 {
+    background: no-repeat url('https://cf.bstatic.com/xdata/images/city/max200/740935.webp?k=d90fa40b53bd16d8d06214496648ebbbccb96cff3946793c569e50103d363ec1&o=');
+}
+.picture-2 {
+    background: no-repeat url("https://cf.bstatic.com/xdata/images/city/max200/844107.webp?k=d2e327bd37d6b8a5e3b3f8f0a4c218387781b80dbbd5adb2d9e56d10f46c1659&o=");
+}
+.picture-3 {
+    background: no-repeat url("https://cf.bstatic.com/xdata/images/city/max200/879409.webp?k=5ae0075dd2c4eb38ba197d88f436067ab78e7701b55ba1ab6699fdce795425ca&o=");
+}
+.text-shadow {
+    text-shadow: 1px 1px 1px #000;
+}
+.green-gradient {
+    background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 45%,#72aa00 100%);
+}
+
+@media (min-width: 768px) { 
+    .dropdown:hover ~ .content {
+        display: flex;
+    }
+    .content:hover {
+        display: flex;
+    }
+    
+ }
+@media (max-width: 768px) {
+    .green-gradient-mobile {
+        background: linear-gradient(to bottom, #bfd255 0%,#8eb92a 45%,#72aa00 100%);
+    }
+    
+}
